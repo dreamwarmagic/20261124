@@ -1,0 +1,156 @@
+{
+  "islands": {
+    "main": {
+      "islandName": "火焰島",
+      "signLabel": "大主島",
+      "buildingTitle": "皇家火焰城",
+      "islandDescription": "群島最高、面積最大的核心主島，矗立著宏偉的皇家大城堡，統御整座浮空群島與航線，當舊世界的秩序在灰燼中崩塌，唯有最熾熱的靈魂才能在烈焰中加冕！我們不向命運低頭，亦不在寒夜中退縮——這裡是「火焰城」。",
+      "imageUrl": "https://raw.githubusercontent.com/dreamwarmagic/202611201/main/0.jpg",
+      "links": [
+        {
+          "label": "HEART 政策島參考",
+          "url": "https://puma.taipei/heart-island"
+        },
+        {
+          "label": "浮空島參考",
+          "url": "https://island.read-draw.com/"
+        }
+      ],
+      "npcName": "城堡守衛長",
+      "npcGreeting": "歡迎來到大主島！這裡是整座群島的最高樞紐，往南可前往中島冒險者公會，往東北則能搭渡輪出海。"
+    },
+    "middle": {
+      "islandName": "中島",
+      "signLabel": "中島",
+      "buildingTitle": "冒險者公會",
+      "islandDescription": "位於大主島南方、一號科技島北方的中型島嶼，設有木石結構的冒險者公會、政策任務佈告欄與交叉雙劍圓盾屋頂。",
+      "imageUrl": "https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?auto=format&fit=crop&w=800&q=80",
+      "links": [
+        {
+          "label": "公會任務總覽",
+          "url": "https://puma.taipei/heart-island"
+       },
+       {
+          "label": "公會任務總覽",
+          "url": "https://puma.taipei/heart-island"
+       }
+      ],
+      "npcName": "公會接待員",
+      "npcGreeting": "冒險者你好！中島的冒險者公會隨時發布新委託，往南過橋就是一號科技島囉！"
+    },
+    "island1": {
+      "islandName": "一號科技島",
+      "signLabel": "一號科技島",
+      "buildingTitle": "遊戲手把科技館",
+      "islandDescription": "位於二至五號小島中央的核心科技島，建築以遊戲手把造型打造，串聯各大搜尋與科技入口。",
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://www.google.com"
+        },
+        {
+          "label": "Yahoo",
+          "url": "https://tw.yahoo.com"
+        }
+      ],
+      "npcName": "科技工程師",
+      "npcGreeting": "這裡是一號科技島！你可以在這裡快速前往 Google 與 Yahoo，也能往周圍二至五號小島探索。"
+    },
+    "island2": {
+      "islandName": "二號攻略島",
+      "signLabel": "二號攻略島",
+      "buildingTitle": "書本攻略藏書閣",
+      "islandDescription": "環繞在一號科技島旁的攻略島，以翻開的書本為建築造型，收錄各式遊戲攻略與實戰秘笈。",
+      "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&q=80",
+      "links": [
+        {
+          "label": "巴哈姆特",
+          "url": "https://www.gamer.com.tw"
+       },
+       {
+          "label": "apk.tw",
+          "url": "https://apk.tw/forum.php"
+        }
+      ],
+      "npcName": "攻略图书管理員",
+      "npcGreeting": "歡迎來到二號攻略島！想找最新遊戲攻略與討論，點擊連結就能前往巴哈姆特。"
+    },
+    "island3": {
+      "islandName": "三號資訊島",
+      "signLabel": "三號資訊島",
+      "buildingTitle": "電腦資訊中心",
+      "islandDescription": "環繞在一號科技島旁的資訊島，以桌上型電腦為建築造型，提供最新科技評測與數位新知。",
+      "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+      "links": [
+        {
+          "label": "電腦王阿達",
+          "url": "https://www.koc.com.tw"
+       },
+       {
+          "label": "YOUTUBE",
+          "url": "https://www.youtube.com/"
+        }
+      ],
+      "npcName": "資訊特派員",
+      "npcGreeting": "这里是三號資訊島！想知道最新 3C 與科技動態，歡迎造訪電腦王阿達。"
+    },
+    "island4": {
+      "islandName": "四號社群島",
+      "signLabel": "四號社群島",
+      "buildingTitle": "手機社群交誼廳",
+      "islandDescription": "環繞在一號科技島旁的社群島，以智慧型手機為建築造型，連結日常分享與社群互動。",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com"
+        }
+      ],
+      "npcName": "社群小幫手",
+      "npcGreeting": "歡迎來到四號社群島！在這裡可以一鍵前往 Facebook 與 Instagram 與好友互動。"
+    },
+    "island5": {
+      "islandName": "五號飛機島",
+      "signLabel": "五號飛機島",
+      "buildingTitle": "飛機航站機庫",
+      "islandDescription": "環繞在一號科技島旁的飛機島，擁有雙跑道與雙架飛機，可搭乘飛機起降並環繞全群島一週。",
+      "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80",
+      "links": [
+        {
+          "label": "好友小島",
+          "url": "https://island.read-draw.com/"
+     },
+       {
+          "label": "好友小島",
+          "url": "https://puma.taipei/heart-island"
+        }
+      ],
+      "npcName": "飛行塔台長",
+      "npcGreeting": "歡迎來到五號飛機島！跑道上有自動巡航機與訪客搭乘機，隨時準備起飛環島！"
+    },
+    "island6": {
+      "islandName": "六號渡輪島",
+      "signLabel": "六號渡輪島",
+      "buildingTitle": "渡輪港口碼頭",
+      "islandDescription": "位於大主島東北方、僅與大主島相連的渡輪島，設有港口與雙郵輪，可環島一週或隨時在各島附近靠岸下船。",
+      "imageUrl": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=800&q=80",
+      "links": [
+        {
+          "label": "好友小島",
+          "url": "https://island.read-draw.com/"
+      },
+       {
+          "label": "好友小島",
+          "url": "https://puma.taipei/heart-island"
+        }
+      ],
+      "npcName": "船長老爹",
+      "npcGreeting": "歡迎來到六號渡輪島！你可以搭上郵輪環島一週，也能隨時選擇在各島旁下船。"
+    }
+  }
+}
