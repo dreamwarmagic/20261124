@@ -143,7 +143,7 @@
       探索 3:2:1 黃金比例浮空島嶼、一至五號骰子五點排列島群、三層等角 Q 版地標建築與導覽 NPC。可操控訪客小人漫步路網，或搭乘飛機與郵輪環遊群島！
     </p>
     <button id="btn-enter-world" class="px-8 py-4 rounded-2xl bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white font-black text-base sm:text-lg shadow-[0_0_32px_rgba(14,165,233,0.75)] transition transform hover:scale-105 active:scale-95 cursor-pointer">
-      ✨ 進入浮空島世界
+      ✨ 進入冒險浮空島世界
     </button>
     <p class="mt-4 text-xs text-slate-300">
       滑鼠點擊地面移動訪客 • 拖曳旋轉視角 • 滾輪縮放 • WASD 移動 • 空白鍵跳躍 • E 或點擊 NPC 對話
@@ -184,7 +184,7 @@
           <span id="card-badge" class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-sky-500/25 text-sky-300 border border-sky-400/35 mb-1">
             島嶼導覽
           </span>
-          <h2 id="card-heading" class="text-xl sm:text-2xl font-black text-white leading-snug">大主島・皇家城堡</h2>
+          <h2 id="card-heading" class="text-xl sm:text-2xl font-black text-white leading-snug">大主島・皇家火焰城</h2>
           <p id="card-subtitle" class="text-xs text-slate-300 mt-0.5">浮空群島最高地勢與王國核心</p>
         </div>
         <button id="btn-close-card" class="w-9 h-9 rounded-xl bg-white/10 hover:bg-rose-500/85 flex items-center justify-center text-white font-bold transition cursor-pointer shrink-0">
@@ -207,7 +207,7 @@
           </div>
         </div>
         <p id="card-npc-greeting" class="text-xs sm:text-sm text-amber-50 leading-relaxed">
-          「歡迎來到大主島皇家城堡！」
+          「歡迎來到大主島皇家火焰城！」
         </p>
       </div>
 
@@ -344,10 +344,10 @@
             "大主島位於群島最北方，擁有 3 倍小島面積（半徑 27）與 3 倍小島高度（Y = 12）的壯闊地勢，島上矗立著多塔式皇家城堡與石造城門。\n\n往南跨越跨海大橋可抵達「中島・冒險者公會」，往東北方則有專屬橋樑連接「六號渡輪島」。",
           subtitle: "3 倍面積 • 3 倍高度 • 北方王國城堡",
           badge: "北方大主島",
-          imageUrl: createSvgPreview("大主島・皇家城堡", "3 倍面積與高度 • 連接中島與六號渡輪島", "#2563eb", "#1e3a8a", "🏰"),
+          imageUrl: createSvgPreview("大主島・皇家火焰城", "3 倍面積與高度 • 連接中島與六號渡輪島", "#2563eb", "#1e3a8a", "🏰"),
           npcName: "皇家總管 亞瑟",
           npcRole: "導覽員",
-          npcGreeting: "「歡迎來到大主島皇家城堡！往南走過跨海大橋就是冒險者公會，往東北方則能直接前往六號渡輪島搭船！」",
+          npcGreeting: "「歡迎來到大主島皇家火焰城！往南走過跨海大橋就是冒險者之家，往東北方則能直接前往六號渡輪島搭船！」",
           links: [
             { label: "🌐 前往 Google", url: "https://www.google.com" },
             { label: "🏝️ Heart Island 參考", url: "https://puma.taipei/heart-island" }
@@ -356,15 +356,15 @@
         middle: {
           id: "middle",
           signText: "中島・冒險者公會",
-          islandName: "中島・冒險者公會",
+          islandName: "中島・冒險者之家",
           islandDescription:
             "中島位於大主島南方，面積（半徑 18）與高度（Y = 8）皆為小島的 2 倍，並透過長橋向南連接一號科技島。\n\n公會建築採等角 Q 版三層結構（與島嶼比例約 1:2）：\n• 第一層：溫馨木石結構房屋，門口設有「政策任務佈告欄」\n• 第二層：屋頂上有大型「交叉雙劍與圓盾」裝飾建築\n• 第三層：最頂端立著醒目的木製告示牌，清楚寫著「冒險者公會」",
           subtitle: "2 倍面積 • 2 倍高度 • 三層木石劍盾公會",
           badge: "中央冒險中島",
-          imageUrl: createSvgPreview("中島・冒險者公會", "木石結構與政策任務佈告欄 • 交叉雙劍圓盾 • 冒險者公會", "#d97706", "#78350f", "⚔️"),
+          imageUrl: createSvgPreview("中島・冒險者之家", "木石結構與政策任務佈告欄 • 交叉雙劍圓盾 • 冒險者公會", "#d97706", "#78350f", "⚔️"),
           npcName: "公會接待員 莉娜",
           npcRole: "導覽員",
-          npcGreeting: "「歡迎來到冒險者公會！看看門口的政策任務佈告欄與屋頂的交叉雙劍圓盾吧！往南走過大橋就能抵達一號科技島與四周環繞的二至五號小島！」",
+          npcGreeting: "「歡迎來到冒險者之家！看看門口的政策任務佈告欄與屋頂的交叉雙劍圓盾吧！往南走過大橋就能抵達一號科技島與四周環繞的二至五號小島！」",
           links: [
             { label: "⚔️ 公會委託搜尋 (Google)", url: "https://www.google.com/search?q=冒險者公會" }
           ]
