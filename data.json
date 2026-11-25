@@ -90,7 +90,11 @@
        {
           "label": "YOUTUBE",
           "url": "https://www.youtube.com/"
-        }
+        },
+       {
+          "label": "GDaily",
+          "url": "https://www.gdaily.org/"
+       }
       ],
       "npcName": "資訊特派員",
       "npcGreeting": "这里是三號資訊島！想知道最新 3C 與科技動態，歡迎造訪電腦王阿達。"
