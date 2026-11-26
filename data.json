@@ -27,12 +27,12 @@
       "imageUrl": "https://github.com/dreamwarmagic/pic/blob/main/1.jpg?raw=true",
       "links": [
         {
-          "label": "公會任務總覽",
+          "label": "公會任務總覽-國中學習島嶼星球",
           "url": "https://jh-islands.web.app/jh-islands/"
        },
        {
-          "label": "公會任務總覽",
-          "url": "https://puma.taipei/heart-island"
+          "label": "公會任務總覽-國中遊戲樂園星球",
+          "url": "https://spell0227.github.io/jh-games/"
        }
       ],
       "npcName": "公會接待員",
